@@ -1,6 +1,6 @@
 {
   "name": "aniwatch",
-  "version": "2.14.5",
+  "version": "2.14.6",
   "description": "📦 A scraper package serving anime information from hianime.to (formerly aniwatch.to)",
   "license": "MIT",
   "main": "dist/index.js",
@@ -11,8 +11,7 @@
     "lint": "tsc",
     "build": "tsup",
     "ci": "tsc && pnpm test && tsup",
-    "test": "vitest run --config vitest.config.ts",
-    "prepare": "node .husky/install.mjs"
+    "test": "vitest run --config vitest.config.ts"
   },
   "author": {
     "name": "Ritesh Ghosh",
@@ -46,7 +45,6 @@
     "@types/crypto-js": "^4.2.2",
     "@types/jsdom": "^21.1.7",
     "@types/node": "^22.1.0",
-    "husky": "^9.1.4",
     "tsup": "^8.2.4",
     "typescript": "^5.5.4",
     "vitest": "^2.0.5"
